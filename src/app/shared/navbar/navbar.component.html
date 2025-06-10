@@ -1,0 +1,39 @@
+<nav class="fixed w-full z-50 bg-background/90 backdrop-blur-sm py-4">
+  <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+    <a href="#" class="font-mono text-secondary text-xl flex items-center">
+      <img src="assets/icons/logo_light.png" alt="Ahmed Nabil" class="h-8 w-8 mr-2">
+      <span class="font-semibold">Ahmed Nabil</span>
+    </a>
+    
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex space-x-8 items-center">
+      <li *ngFor="let item of navItems; let i = index">
+        <a href="javascript:void(0)" (click)="scrollTo(item.link)"  class="text-text-primary hover:text-secondary transition-colors font-mono">
+          <span class="text-secondary">0{{i+1}}.</span> {{item.name}}
+        </a>
+      </li>
+      <li>  
+        <a href="getCV()" target="_blank" class="btn-primary">Resume</a>
+      </li>
+    </ul>
+    
+    <!-- Mobile Menu Button -->
+    <button class="md:hidden text-secondary" (click)="toggleMenu()">
+      <i class="pi" [ngClass]="isMenuOpen ? 'pi-times' : 'pi-bars'"></i>
+    </button>
+  </div>
+  
+  <!-- Mobile Menu -->
+  <div class="md:hidden absolute w-full bg-primary" [ngClass]="isMenuOpen ? 'block' : 'hidden'">
+    <ul class="flex flex-col items-center py-4 space-y-4">
+      <li *ngFor="let item of navItems; let i = index">
+        <a href="javascript:void(0)" (click)="scrollTo(item.link)"  class="text-text-primary hover:text-secondary transition-colors font-mono">
+          <span class="text-secondary">0{{i+1}}.</span> {{item.name}}
+        </a>
+      </li>
+      <li>
+        <a href="getCV()" target="_blank" class="btn-primary">Resume</a>
+      </li>
+    </ul>
+  </div>
+</nav>
