@@ -3,8 +3,10 @@
 A clean, modern portfolio website showcasing my skills and projects as Software Engineer.
 
 ## 🚀 Live Demo
+Visit my portfolio: [Ahmed Nabil](https://my-portfolio-tau-taupe-13.vercel.app/)
 
-Visit my portfolio: [ahmednabil.vercel.app]([https://ahmednabil.vercel.app](https://my-portfolio-tau-taupe-13.vercel.app/))
+
+[Portfolio Screenshot](src/assets/screenshots/main.png)
 
 ## ✨ Features
 
