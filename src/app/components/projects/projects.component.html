@@ -1,0 +1,171 @@
+<section class="py-20" id="projects">
+  <div class="section-container">
+    <h2 class="section-heading">Featured Projects</h2>
+    
+    <div class="space-y-24">
+      <!-- Featured Project 1 -->
+      <div class="relative grid md:grid-cols-12 gap-4 items-center">
+        <div class="md:col-span-7 md:order-2">
+          <div class="relative rounded-lg overflow-hidden group">
+            <img [src]="getProjectImage('gym_management_system', 'png')" alt="Gym Management System" class="w-full h-auto rounded-lg transition-all duration-300 group-hover:scale-105" />
+            <div class="absolute inset-0 bg-primary/70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div class="flex space-x-4">
+                <a href="https://github.com/ahmed2nabil/delhi-fit" target="_blank" class="text-secondary hover:text-white transition-colors text-2xl">
+                  <i class="pi pi-github"></i>
+                </a>
+                <a href="https://delhi-fit.vercel.app/multiStep/551ANNER5J1E" target="_blank" class="text-secondary hover:text-white transition-colors text-2xl">
+                  <i class="pi pi-external-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="md:col-span-6 md:col-start-1 md:row-start-1">
+          <p class="font-mono text-secondary mb-1">Featured Project</p>
+          <h3 class="text-2xl font-bold mb-4">Delhi Fitness</h3>
+          <div class="bg-primary/50 p-6 rounded-lg shadow-xl mb-4">
+            <p class="text-text-secondary">
+              a Gym management system featuring a multi-step form for collecting user data, an admin dashboard to view and manage the collected information, and an automated process to transfer Excel files from Storage Service to the admin's Google Drive account.            </p>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="text-xs text-text-secondary font-mono">Node.js</span>
+            <span class="text-xs text-text-secondary font-mono">Express.js</span>
+            <span class="text-xs text-text-secondary font-mono">Vue.js</span>
+            <span class="text-xs text-text-secondary font-mono">JWT</span>
+            <span class="text-xs text-text-secondary font-mono">Mongoose</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Featured Project 2 -->
+      <!-- <div class="relative grid md:grid-cols-12 gap-4 items-center">
+        <div class="md:col-span-7">
+          <div class="relative rounded-lg overflow-hidden group">
+            <img src="getProjectImage('grocery-service')" alt="Grocery Microservice" class="w-full h-auto rounded-lg transition-all duration-300 group-hover:scale-105" />
+            <div class="absolute inset-0 bg-primary/70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div class="flex space-x-4">
+                <a href="https://github.com/ahmed2nabil" target="_blank" class="text-secondary hover:text-white transition-colors text-2xl">
+                  <i class="pi pi-github"></i>
+                </a>
+                <a href="#" target="_blank" class="text-secondary hover:text-white transition-colors text-2xl">
+                  <i class="pi pi-external-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="md:col-span-6 md:col-start-7">
+          <p class="font-mono text-secondary mb-1">Featured Project</p>
+          <h3 class="text-2xl font-bold mb-4">Grocery Microservice</h3>
+          <div class="bg-primary/50 p-6 rounded-lg shadow-xl mb-4">
+            <p class="text-text-secondary">
+              A microservices-based backend for an e-commerce grocery platform. Implemented features include 
+              shopping cart management, wishlist functionality, and product search with filtering options. 
+              Deployed using containerization for scalability.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="text-xs text-text-secondary font-mono">Node.js</span>
+            <span class="text-xs text-text-secondary font-mono">Docker</span>
+            <span class="text-xs text-text-secondary font-mono">RabbitMQ</span>
+            <span class="text-xs text-text-secondary font-mono">AWS</span>
+            <span class="text-xs text-text-secondary font-mono">Microservices</span>
+          </div>
+        </div>
+      </div> -->
+      
+      <!-- Other Projects Grid -->
+      <div>
+        <h3 class="text-2xl font-bold mb-8 text-center">Other Noteworthy Projects</h3>
+        
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-primary/30 rounded-lg p-6 hover:-translate-y-2 transition-all duration-300">
+            <div class="flex justify-between items-center mb-4">
+              <div class="text-secondary text-3xl">
+                <i class="pi pi-folder"></i>
+              </div>
+              <div class="flex space-x-3">
+                <a href="https://github.com/ahmed2nabil/Simple_Reddit_Clone" target="_blank" class="text-text-secondary hover:text-secondary transition-colors">
+                  <i class="pi pi-github"></i>
+                </a>
+                <!-- <a href="#" target="_blank" class="text-text-secondary hover:text-secondary transition-colors">
+                  <i class="pi pi-external-link"></i>
+                </a> -->
+              </div>
+            </div>
+            
+            <h4 class="text-xl font-bold mb-2">Reddit Clone</h4>
+            <p class="text-text-secondary mb-4">
+              A real-time social application with posting, comments, and image uploads. Features user authentication, 
+              voting system, and community management.
+            </p>
+            
+            <div class="flex flex-wrap gap-2 mt-auto">
+              <span class="text-xs text-text-secondary font-mono">Node.js</span>
+              <span class="text-xs text-text-secondary font-mono">MySQL</span>
+              <span class="text-xs text-text-secondary font-mono">WebSockets</span>
+            </div>
+          </div>
+          
+          <div class="bg-primary/30 rounded-lg p-6 hover:-translate-y-2 transition-all duration-300">
+            <div class="flex justify-between items-center mb-4">
+              <div class="text-secondary text-3xl">
+                <i class="pi pi-folder"></i>
+              </div>
+              <div class="flex space-x-3">
+                <a href="https://github.com/ahmed2nabil/Grocery_shopping_Micorservice" target="_blank" class="text-text-secondary hover:text-secondary transition-colors">
+                  <i class="pi pi-github"></i>
+                </a>
+              </div>
+            </div>
+            
+            <h4 class="text-xl font-bold mb-2">Grocery Microservice</h4>
+            <p class="text-text-secondary mb-4">
+              A microservices-based backend for an e-commerce grocery platform. Implemented features include 
+              shopping cart management, wishlist functionality, and product search with filtering options. 
+              Deployed using containerization for scalability.
+            </p>
+            
+            <div class="flex flex-wrap gap-2 mt-auto">
+              <span class="text-xs text-text-secondary font-mono">Node.js</span>
+              <span class="text-xs text-text-secondary font-mono">Docker</span>
+              <span class="text-xs text-text-secondary font-mono">RabbitMQ</span>
+              <span class="text-xs text-text-secondary font-mono">AWS</span>
+              <span class="text-xs text-text-secondary font-mono">Microservices</span>
+            </div>
+          </div>
+          
+          <div class="bg-primary/30 rounded-lg p-6 hover:-translate-y-2 transition-all duration-300">
+            <div class="flex justify-between items-center mb-4">
+              <div class="text-secondary text-3xl">
+                <i class="pi pi-folder"></i>
+              </div>
+              <div class="flex space-x-3">
+                <a href="https://github.com/SysBoard/SysBoard_Backend" target="_blank" class="text-text-secondary hover:text-secondary transition-colors">
+                  <i class="pi pi-github"></i>
+                </a>
+              </div>
+            </div>
+            
+            <h4 class="text-xl font-bold mb-2">Student Management System</h4>
+            <p class="text-text-secondary mb-4">
+              A comprehensive student management platform developed as my graduation project. Features include automated grading, 
+              role-based access control for administrators, teachers, and students, and a clean user interface 
+              for managing educational data.
+            </p>
+            
+            <div class="flex flex-wrap gap-2 mt-auto">
+              <span class="text-xs text-text-secondary font-mono">Node.js</span>
+              <span class="text-xs text-text-secondary font-mono">Express.js</span>
+              <span class="text-xs text-text-secondary font-mono">Vue.js</span>
+              <span class="text-xs text-text-secondary font-mono">JWT</span>
+              <span class="text-xs text-text-secondary font-mono">Mongoose</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
