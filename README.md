@@ -1,28 +1,98 @@
-# MyPortfolio
+# Ahmed Nabil Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
+A clean, modern portfolio website showcasing my skills and projects as Software Engineer.
 
-## Development server
+## 🚀 Live Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Visit my portfolio: [ahmednabil.vercel.app]([https://ahmednabil.vercel.app](https://my-portfolio-tau-taupe-13.vercel.app/))
 
-## Code scaffolding
+## ✨ Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Responsive design that works on all devices
+- Interactive project showcases with live demos
+- Smooth scrolling and animations
 
-## Build
+## 🛠️ Built With
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Frontend Framework**: Angular 18
+- **CSS Framework**: Tailwind CSS
+- **UI Components**: PrimeNG
+- **Icons**: PrimeIcons
+- **Fonts**: Inter (main) & Fira Code (monospace)
+- **Deployment**: Vercel
 
-## Running unit tests
+## 🏗️ Project Structure
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+portfolio/
+- ├── src/
+- │   ├── app/
+- │   │   ├── components/          # Standalone Angular components
+- │   │   ├── services/            # Angular services
+- │   │   ├── shared/              # Shared components (navbar, footer)
+- │   │   ├── app.component.ts     # Root component
+- │   │   └── app.routes.ts        # Application routes
+- │   ├── assets/
+- │   │   ├── cv/                  # Resume/CV files
+- │   │   ├── icons/               # Favicon and logo files
+- │   │   ├── images/              # Profile and other images
+- │   │   └── projects/            # Project screenshots
+- │   └── styles/                  # Global styles and theme variables
+- └── tailwind.config.js           # Tailwind configuration
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# MyPortfolio
+## 🚦 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+   git clone https://github.com/ahmed2nabil/portfolio.git
+   cd portfolio
+
+2. Install dependencies
+   npm install
+
+3. Start the development server
+   npm start
+
+4. Open your browser and navigate to http://localhost:4200
+
+## 🔧 Customization
+
+### Changing Theme Colors
+
+Edit the color variables in tailwind.config.js and src/styles/_theme-variables.scss to customize the color scheme.
+
+### Adding Projects
+
+1. Add project images to src/assets/projects/
+2. Update the projects array in src/app/components/projects/projects.component.ts
+
+### Updating Resume
+
+Replace the PDF file in src/assets/cv/ with your updated resume.
+
+## 📱 Responsive Design
+
+The portfolio is fully responsive with breakpoints for:
+- Mobile: < 640px
+- Tablet: 640px - 1024px
+- Desktop: > 1024px
+
+
+
+## 📞 Contact
+
+- Email: [ahmednabl992@gmail.com](mailto:ahmednabl992@gmail.com)
+- LinkedIn: [ahmednabil22](https://www.linkedin.com/in/ahmednabil22/)
+- GitHub: [ahmed2nabil](https://github.com/ahmed2nabil)
+
+---
+
+Feel free to fork this repository and customize it for your own portfolio!
