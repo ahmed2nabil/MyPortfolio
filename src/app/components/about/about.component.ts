@@ -11,16 +11,18 @@ import { AssetService } from '../../services/assets.service';
 })
 export class AboutComponent {
   technologies = [
-    'Angular', 
-    'Tailwind CSS', 
-    'PrimeNG', 
-    'AG Grid',
+    'Angular',
+    'NgRx',
+    'PrimeNG',
+    'Tailwind CSS',
     'NestJS',
-    'Docker',
-    'Redis',
-    'RabbitMQ',
+    'Fastify',
+    'PostgreSQL',
     'MongoDB',
-    'PostgreSQL'
+    'RabbitMQ',
+    'Redis',
+    'Docker',
+    'Google AI'
   ];
   profileImage: string;
   constructor(private assetService: AssetService) {
