@@ -5,21 +5,23 @@
     <div class="grid md:grid-cols-3 gap-10">
       <div class="md:col-span-2">
         <p class="text-text-secondary mb-4">
-          Hello! I'm Ahmed, a Software Engineer based in Egypt who enjoys building digital experiences. 
-          I specialize in creating robust, user-friendly applications with clean interfaces and efficient 
-          backend systems.
+          Hello! I'm Ahmed, a Full-Stack Software Engineer based in Egypt who specializes in building
+          scalable web applications. I create robust solutions from responsive Angular frontends with
+          state management to efficient NestJS backends with microservices architecture.
         </p>
-        
+
         <p class="text-text-secondary mb-4">
-          My journey in software development has led me through various roles at companies like 
-          <span class="text-secondary">Penny Software</span>, <span class="text-secondary">Vultara</span>, 
-          and <span class="text-secondary">Aliya</span>, where I've honed my skills in both frontend and 
-          backend technologies.
+          Currently working as a Software Engineer at <span class="text-secondary">Penny Software</span>,
+          where I develop end to end features and build complex UI components. Previously awarded
+          <span class="text-secondary">Employee of the Year 2024</span> at Vultara for contributing to
+          an 80% revenue increase through rapid feature delivery.
         </p>
-        
+
         <p class="text-text-secondary mb-6">
-          I graduated with a B.Sc. in Computer Engineering from Aswan University, where I developed a strong 
-          foundation in data structures, algorithms, and software design principles.
+          Recently, I developed <span class="text-secondary">Selynk</span>, an AI-powered HR assessment
+          platform with Google AI integration, demonstrating my expertise in combining modern frontend
+          frameworks with intelligent backend systems. I hold a B.Sc. in Computer Engineering from
+          Aswan University.
         </p>
         
         <p class="text-text-secondary mb-6">
@@ -27,29 +29,9 @@
         </p>
         
         <div class="grid grid-cols-2 md:grid-cols-3 gap-2 mb-8">
-          <div class="flex items-center">
+          <div class="flex items-center" *ngFor="let tech of technologies">
             <span class="text-secondary mr-2">▹</span>
-            <span class="font-mono text-sm">Angular</span>
-          </div>
-          <div class="flex items-center">
-            <span class="text-secondary mr-2">▹</span>
-            <span class="font-mono text-sm">PrimeNG</span>
-          </div>
-          <div class="flex items-center">
-            <span class="text-secondary mr-2">▹</span>
-            <span class="font-mono text-sm">Tailwind CSS</span>
-          </div>
-          <div class="flex items-center">
-            <span class="text-secondary mr-2">▹</span>
-            <span class="font-mono text-sm">Node.js</span>
-          </div>
-          <div class="flex items-center">
-            <span class="text-secondary mr-2">▹</span>
-            <span class="font-mono text-sm">NestJS</span>
-          </div>
-          <div class="flex items-center">
-            <span class="text-secondary mr-2">▹</span>
-            <span class="font-mono text-sm">MongoDB</span>
+            <span class="font-mono text-sm">{{ tech }}</span>
           </div>
         </div>
       </div>
